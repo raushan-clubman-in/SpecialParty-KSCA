@@ -1,0 +1,426 @@
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\bin\Debug\SmartPos.exe.config
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\Interop.FPSpread.dll
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\Interop.FPSpreadADO.dll
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\Interop.FPUSpreadADO.dll
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\Interop.StdType.dll
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\AxInterop.FPSpreadADO.dll
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\AxInterop.FPUSpreadADO.dll
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.vbproj.ResolveComReference.cache
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.exe
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.xml
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.pdb
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\bin\Debug\SmartPos.exe
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\bin\Debug\SmartPos.pdb
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\bin\Debug\SmartPos.xml
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\bin\Debug\Interop.FPSpreadADO.dll
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\bin\Debug\AxInterop.FPSpreadADO.dll
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.vbprojResolveAssemblyReference.cache
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.AUTHORISATION.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.CompanyList1.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.ReportViwer.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.LoginForm.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.MDIFORM.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.Welcome.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.Form1.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.LIST_OPERATION1.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_BOM.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_CategoryMaster.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_GroupMaster.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ItemMaster.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ItemType.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Locationmaster.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Paymentmodemaster.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSGROUPMASTER.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSMaster.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSSETUP.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ServerMaster.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Subgroupmaster.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Tablemaster.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Uommaster.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.Resources.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.ReportDesigner.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.DOCSelection.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_FinalBilling.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_ServiceBill.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_SmartKotEntry.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_Directbilling.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.VIEWDET.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.VIEWHDR.resources
+D:\Pankaj\Latest\Devlopment\SmartPos\SmartPos\obj\Debug\SmartPos.vbproj.GenerateResource.Cache
+D:\Pankaj\SmartPos\SmartPos\bin\Debug\SmartPos.exe.config
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\Interop.FPSpreadADO.dll
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\Interop.FPUSpreadADO.dll
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\AxInterop.FPSpreadADO.dll
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\AxInterop.FPUSpreadADO.dll
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.vbproj.ResolveComReference.cache
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.exe
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.xml
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.pdb
+D:\Pankaj\SmartPos\SmartPos\bin\Debug\SmartPos.exe
+D:\Pankaj\SmartPos\SmartPos\bin\Debug\SmartPos.pdb
+D:\Pankaj\SmartPos\SmartPos\bin\Debug\SmartPos.xml
+D:\Pankaj\SmartPos\SmartPos\bin\Debug\Interop.FPSpreadADO.dll
+D:\Pankaj\SmartPos\SmartPos\bin\Debug\AxInterop.FPSpreadADO.dll
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.vbprojResolveAssemblyReference.cache
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.AUTHORISATION.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.CompanyList1.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.ReportViwer.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.LoginForm.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.MDIFORM.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.Welcome.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.Form1.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.LIST_OPERATION1.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_BOM.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_CategoryMaster.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_GroupMaster.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ItemMaster.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ItemType.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Locationmaster.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Paymentmodemaster.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSGROUPMASTER.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSMaster.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSSETUP.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ServerMaster.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Subgroupmaster.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Tablemaster.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Uommaster.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.Resources.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.ReportDesigner.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.DOCSelection.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_FinalBilling.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_ServiceBill.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_SmartKotEntry.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_Directbilling.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.VIEWDET.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.VIEWHDR.resources
+D:\Pankaj\SmartPos\SmartPos\obj\Debug\SmartPos.vbproj.GenerateResource.Cache
+F:\Bengalclub\SmartPos\SmartPos\bin\Debug\SmartPos.exe.config
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\Interop.FPSpreadADO.dll
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\Interop.FPUSpreadADO.dll
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\AxInterop.FPSpreadADO.dll
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\AxInterop.FPUSpreadADO.dll
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.vbproj.ResolveComReference.cache
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.xml
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.pdb
+F:\Bengalclub\SmartPos\SmartPos\bin\Debug\SmartPos.exe
+F:\Bengalclub\SmartPos\SmartPos\bin\Debug\SmartPos.pdb
+F:\Bengalclub\SmartPos\SmartPos\bin\Debug\SmartPos.xml
+F:\Bengalclub\SmartPos\SmartPos\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+F:\Bengalclub\SmartPos\SmartPos\bin\Debug\Interop.FPSpreadADO.dll
+F:\Bengalclub\SmartPos\SmartPos\bin\Debug\AxInterop.FPSpreadADO.dll
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.vbprojResolveAssemblyReference.cache
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.AUTHORISATION.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.CompanyList1.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.ReportViwer.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.LoginForm.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.MDIFORM.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.Welcome.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.Form1.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.LIST_OPERATION1.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_BOM.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_CategoryMaster.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_GroupMaster.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ItemMaster.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ItemType.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Locationmaster.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Paymentmodemaster.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSGROUPMASTER.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSMaster.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSSETUP.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ServerMaster.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Subgroupmaster.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Tablemaster.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Uommaster.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.Resources.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.ReportDesigner.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.DOCSelection.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_FinalBilling.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_ServiceBill.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_SmartKotEntry.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_Directbilling.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.VIEWDET.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.VIEWHDR.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.vbproj.GenerateResource.Cache
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.exe
+D:\NEW\kgapos\SmartPos\SmartPos\bin\Debug\SmartPos.exe.config
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\Interop.FPSpread.dll
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\Interop.FPSpreadADO.dll
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\Interop.FPUSpreadADO.dll
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\Interop.StdType.dll
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\AxInterop.FPSpreadADO.dll
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\AxInterop.FPUSpreadADO.dll
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.vbproj.ResolveComReference.cache
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.exe
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.xml
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.pdb
+D:\NEW\kgapos\SmartPos\SmartPos\bin\Debug\SmartPos.exe
+D:\NEW\kgapos\SmartPos\SmartPos\bin\Debug\SmartPos.pdb
+D:\NEW\kgapos\SmartPos\SmartPos\bin\Debug\SmartPos.xml
+D:\NEW\kgapos\SmartPos\SmartPos\bin\Debug\Interop.FPSpreadADO.dll
+D:\NEW\kgapos\SmartPos\SmartPos\bin\Debug\AxInterop.FPSpreadADO.dll
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\ResolveAssemblyReference.cache
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.AUTHORISATION.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.CompanyList1.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.ReportViwer.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.LoginForm.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.MDIFORM.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.Welcome.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.Form1.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.LIST_OPERATION1.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_BOM.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_CategoryMaster.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_GroupMaster.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ItemMaster.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ItemType.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Locationmaster.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Paymentmodemaster.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSGROUPMASTER.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSMaster.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSSETUP.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ServerMaster.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Subgroupmaster.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Tablemaster.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Uommaster.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.Resources.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.ReportDesigner.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.DOCSelection.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_FinalBilling.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_ServiceBill.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_SmartKotEntry.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_Directbilling.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.VIEWDET.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.VIEWHDR.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\GenerateResource.read.1.tlog
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\GenerateResource.write.1.tlog
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_CancelItemRegister.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.DeptitemwiseSalesRegister.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.DeptitemwiseSalesRegister123.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_Itemwise_NEW.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.MEMBERSALESPOINTWISEREGISTER.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.SalesBillChecklist1.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_Selectivedatewise.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_SERVERWISEPENDING.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_ServerwisePendingKotRegister.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_VatServiceTaxreport.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.EXPORT.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.exportexcel.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_PromotionalMaster.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_RateMaster.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_KOTBOOK.resources
+D:\NEW\kgapos\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_mem_limit_unblock.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.EXPORT.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.exportexcel.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_mem_limit_unblock.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_PromotionalMaster.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_RateMaster.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_CancelItemRegister.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.DeptitemwiseSalesRegister.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.DeptitemwiseSalesRegister123.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_Itemwise_NEW.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.MEMBERSALESPOINTWISEREGISTER.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.SalesBillChecklist1.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_Selectivedatewise.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_SERVERWISEPENDING.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_ServerwisePendingKotRegister.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_VatServiceTaxreport.resources
+F:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_KOTBOOK.resources
+E:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.vbprojResolveAssemblyReference.cache
+E:\Bengalclub\SmartPos\SmartPos\obj\Debug\AxInterop.FPSpreadADO.dll
+E:\Bengalclub\SmartPos\SmartPos\obj\Debug\AxInterop.FPUSpreadADO.dll
+E:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.exe
+E:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.xml
+E:\Bengalclub\SmartPos\SmartPos\obj\Debug\SmartPos.pdb
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.exe
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.xml
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.pdb
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.vbproj.ResolveComReference.cache
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.AUTHORISATION.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.CompanyList1.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.ReportViwer.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.LoginForm.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.MDIFORM.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.Welcome.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.EXPORT.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.exportexcel.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.Form1.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.LIST_OPERATION1.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_BOM.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_CategoryMaster.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_GroupMaster.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ItemMaster.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ItemType.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Locationmaster.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_mem_limit_unblock.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Paymentmodemaster.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSGROUPMASTER.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSMaster.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSSETUP.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_PromotionalMaster.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_RateMaster.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ServerMaster.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Subgroupmaster.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Tablemaster.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Uommaster.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.Resources.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.ReportDesigner.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_CancelItemRegister.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.DeptitemwiseSalesRegister.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.DeptitemwiseSalesRegister123.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_Itemwise_NEW.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.MEMBERSALESPOINTWISEREGISTER.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.SalesBillChecklist1.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_Selectivedatewise.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_SERVERWISEPENDING.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_ServerwisePendingKotRegister.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_VatServiceTaxreport.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.DOCSelection.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_FinalBilling.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_ServiceBill.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_SmartKotEntry.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_Directbilling.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_KOTBOOK.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.VIEWDET.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.VIEWHDR.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.vbproj.GenerateResource.Cache
+D:\SmartPos\SmartPos\bin\Debug\SmartPos.exe.config
+D:\SmartPos\SmartPos\bin\Debug\SmartPos.exe
+D:\SmartPos\SmartPos\bin\Debug\SmartPos.pdb
+D:\SmartPos\SmartPos\bin\Debug\SmartPos.xml
+D:\SmartPos\SmartPos\bin\Debug\AxInterop.FPSpread.dll
+D:\SmartPos\SmartPos\bin\Debug\AxInterop.FPSpreadADO.dll
+D:\SmartPos\SmartPos\bin\Debug\AxInterop.FPUSpreadADO.dll
+D:\SmartPos\SmartPos\bin\Debug\Interop.FPUSpreadADO.dll
+D:\SmartPos\SmartPos\bin\Debug\Interop.MSFlexGridLib.dll
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.vbprojResolveAssemblyReference.cache
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.AccountItemTagging.resources
+D:\SmartPos\SmartPos\obj\Debug\SmartPos.JournalRegister.resources
+E:\sourcechs\kga\SmartPos\SmartPos\bin\Debug\SmartPos.exe.config
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.vbproj.ResolveComReference.cache
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.exe
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.xml
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.pdb
+E:\sourcechs\kga\SmartPos\SmartPos\bin\Debug\SmartPos.exe
+E:\sourcechs\kga\SmartPos\SmartPos\bin\Debug\SmartPos.pdb
+E:\sourcechs\kga\SmartPos\SmartPos\bin\Debug\SmartPos.xml
+E:\sourcechs\kga\SmartPos\SmartPos\bin\Debug\AxInterop.FPSpread.dll
+E:\sourcechs\kga\SmartPos\SmartPos\bin\Debug\AxInterop.FPSpreadADO.dll
+E:\sourcechs\kga\SmartPos\SmartPos\bin\Debug\AxInterop.FPUSpreadADO.dll
+E:\sourcechs\kga\SmartPos\SmartPos\bin\Debug\Interop.FPUSpreadADO.dll
+E:\sourcechs\kga\SmartPos\SmartPos\bin\Debug\Interop.MSFlexGridLib.dll
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.vbprojResolveAssemblyReference.cache
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.AccountItemTagging.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.JournalRegister.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.AUTHORISATION.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.CompanyList1.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.ReportViwer.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.LoginForm.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.MDIFORM.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.Welcome.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.EXPORT.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.exportexcel.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.Form1.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.LIST_OPERATION1.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_BOM.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_CategoryMaster.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_GroupMaster.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ItemMaster.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ItemType.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Locationmaster.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_mem_limit_unblock.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Paymentmodemaster.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSGROUPMASTER.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSMaster.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSSETUP.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_PromotionalMaster.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_RateMaster.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ServerMaster.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Subgroupmaster.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Tablemaster.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Uommaster.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.Resources.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.ReportDesigner.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_CancelItemRegister.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.DeptitemwiseSalesRegister.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.DeptitemwiseSalesRegister123.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_Itemwise_NEW.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.MEMBERSALESPOINTWISEREGISTER.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.SalesBillChecklist1.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_Selectivedatewise.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_SERVERWISEPENDING.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_ServerwisePendingKotRegister.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_RKGA_VatServiceTaxreport.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.DOCSelection.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_FinalBilling.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_ServiceBill.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_SmartKotEntry.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_Directbilling.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.FRM_TKGA_KOTBOOK.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.VIEWDET.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.VIEWHDR.resources
+E:\sourcechs\kga\SmartPos\SmartPos\obj\Debug\SmartPos.vbproj.GenerateResource.Cache
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\bin\Debug\SmartPos.exe.config
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.vbproj.ResolveComReference.cache
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.xml
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.pdb
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\bin\Debug\SmartPos.exe
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\bin\Debug\SmartPos.pdb
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\bin\Debug\SmartPos.xml
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\bin\Debug\Interop.FPUSpreadADO.dll
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\bin\Debug\Interop.MSFlexGridLib.dll
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.vbprojResolveAssemblyReference.cache
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.AccountItemTagging.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.JournalRegister.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.AUTHORISATION.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.CompanyList1.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.ReportViwer.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.LoginForm.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.MDIFORM.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.Welcome.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.EXPORT.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.exportexcel.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.Form1.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.LIST_OPERATION1.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_BOM.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_CategoryMaster.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_GroupMaster.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ItemMaster.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ItemType.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Locationmaster.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_mem_limit_unblock.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Paymentmodemaster.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSGROUPMASTER.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSMaster.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_POSSETUP.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_PromotionalMaster.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_RateMaster.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_ServerMaster.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Subgroupmaster.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Tablemaster.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_MKGA_Uommaster.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.Resources.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.ReportDesigner.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_RKGA_CancelItemRegister.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.DeptitemwiseSalesRegister.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.DeptitemwiseSalesRegister123.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_RKGA_Itemwise_NEW.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.MEMBERSALESPOINTWISEREGISTER.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.SalesBillChecklist1.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_RKGA_Selectivedatewise.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_RKGA_SERVERWISEPENDING.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_RKGA_ServerwisePendingKotRegister.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_RKGA_VatServiceTaxreport.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.DOCSelection.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_TKGA_FinalBilling.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_TKGA_ServiceBill.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_TKGA_SmartKotEntry.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_TKGA_Directbilling.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.FRM_TKGA_KOTBOOK.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.VIEWDET.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.VIEWHDR.resources
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.vbproj.GenerateResource.Cache
+E:\sourcechs\kga\SmartPos\SENTHIL MC\SmartPos\obj\Debug\SmartPos.exe
+F:\Party_CCL\SmartPos\bin\Debug\SmartPos.exe.config
+F:\Party_CCL\SmartPos\obj\Debug\SmartPos.vbproj.ResolveComReference.cache
+F:\Party_CCL\SmartPos\obj\Debug\SmartPos.exe
+F:\Party_CCL\SmartPos\obj\Debug\SmartPos.xml
+F:\Party_CCL\SmartPos\obj\Debug\SmartPos.pdb

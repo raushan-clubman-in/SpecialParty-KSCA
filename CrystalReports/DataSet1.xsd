@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="PARNEWConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="PARNEWConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SpecialParty.My.MySettings.GlobalReference.Default.PARNEWConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_HallReservationTableAdapter" GeneratorDataComponentClassName="View_HallReservationTableAdapter" Name="View_HallReservation" UserDataComponentName="View_HallReservationTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PARNEWConnectionString (MySettings)" DbObjectName="PARNEW.dbo.View_HallReservation" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT BOOKINGNO, BOOKINGDATE, PARTYDATE, PartyToDate, FROMTIME, TOTIME, MCODE, ASSOCIATENAME, GUESTNAME, DESCRIPTION, OCCUPANCY, HALLCODE, HallDesc, HALLTYPE, PDesc, HALLAMOUNT, HALLTAXAMOUNT, HALLNETAMOUNT, M_Keeper, SessionType, CELLNO, EMAIL, FREEZE, CANCELFLAG, A, B, C, D, E, F FROM dbo.View_HallReservation</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="BOOKINGNO" DataSetColumn="BOOKINGNO" />
+              <Mapping SourceColumn="BOOKINGDATE" DataSetColumn="BOOKINGDATE" />
+              <Mapping SourceColumn="PARTYDATE" DataSetColumn="PARTYDATE" />
+              <Mapping SourceColumn="PartyToDate" DataSetColumn="PartyToDate" />
+              <Mapping SourceColumn="FROMTIME" DataSetColumn="FROMTIME" />
+              <Mapping SourceColumn="TOTIME" DataSetColumn="TOTIME" />
+              <Mapping SourceColumn="MCODE" DataSetColumn="MCODE" />
+              <Mapping SourceColumn="ASSOCIATENAME" DataSetColumn="ASSOCIATENAME" />
+              <Mapping SourceColumn="GUESTNAME" DataSetColumn="GUESTNAME" />
+              <Mapping SourceColumn="DESCRIPTION" DataSetColumn="DESCRIPTION" />
+              <Mapping SourceColumn="OCCUPANCY" DataSetColumn="OCCUPANCY" />
+              <Mapping SourceColumn="HALLCODE" DataSetColumn="HALLCODE" />
+              <Mapping SourceColumn="HallDesc" DataSetColumn="HallDesc" />
+              <Mapping SourceColumn="HALLTYPE" DataSetColumn="HALLTYPE" />
+              <Mapping SourceColumn="PDesc" DataSetColumn="PDesc" />
+              <Mapping SourceColumn="HALLAMOUNT" DataSetColumn="HALLAMOUNT" />
+              <Mapping SourceColumn="HALLTAXAMOUNT" DataSetColumn="HALLTAXAMOUNT" />
+              <Mapping SourceColumn="HALLNETAMOUNT" DataSetColumn="HALLNETAMOUNT" />
+              <Mapping SourceColumn="M_Keeper" DataSetColumn="M_Keeper" />
+              <Mapping SourceColumn="SessionType" DataSetColumn="SessionType" />
+              <Mapping SourceColumn="CELLNO" DataSetColumn="CELLNO" />
+              <Mapping SourceColumn="EMAIL" DataSetColumn="EMAIL" />
+              <Mapping SourceColumn="FREEZE" DataSetColumn="FREEZE" />
+              <Mapping SourceColumn="CANCELFLAG" DataSetColumn="CANCELFLAG" />
+              <Mapping SourceColumn="A" DataSetColumn="A" />
+              <Mapping SourceColumn="B" DataSetColumn="B" />
+              <Mapping SourceColumn="C" DataSetColumn="C" />
+              <Mapping SourceColumn="D" DataSetColumn="D" />
+              <Mapping SourceColumn="E" DataSetColumn="E" />
+              <Mapping SourceColumn="F" DataSetColumn="F" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="party_hallbooking_hdrTableAdapter" GeneratorDataComponentClassName="party_hallbooking_hdrTableAdapter" Name="party_hallbooking_hdr" UserDataComponentName="party_hallbooking_hdrTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PARNEWConnectionString (MySettings)" DbObjectName="PARNEW.dbo.party_hallbooking_hdr" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[party_hallbooking_hdr] ([BOOKINGNO], [PARTYDATE], [TARIFFCODE], [MCODE], [MEMBERTYPE], [ASSOCIATENAME], [BOOKINGDATE], [DESCRIPTION], [BOOKINGSTATUS], [BOOKINGFLAG], [BILLINGFLAG], [CANCELFLAG], [FREEZE], [ADDDATETIME], [ADDUSERID], [MENUCODE], [OCCUPANCY], [LOCCODE], [VEG], [NONVEG], [BOOKINGTYPE], [freereson], [DISCOUNTAMT], [TOTALAMOUNT], [HALLNETAMOUNT], [DISCOUNT], [GUESTNAME], [CELLNO], [EMAIL], [HallTaxAmount], [UpdUserID], [UpdDateTime]) VALUES (@BOOKINGNO, @PARTYDATE, @TARIFFCODE, @MCODE, @MEMBERTYPE, @ASSOCIATENAME, @BOOKINGDATE, @DESCRIPTION, @BOOKINGSTATUS, @BOOKINGFLAG, @BILLINGFLAG, @CANCELFLAG, @FREEZE, @ADDDATETIME, @ADDUSERID, @MENUCODE, @OCCUPANCY, @LOCCODE, @VEG, @NONVEG, @BOOKINGTYPE, @freereson, @DISCOUNTAMT, @TOTALAMOUNT, @HALLNETAMOUNT, @DISCOUNT, @GUESTNAME, @CELLNO, @EMAIL, @HallTaxAmount, @UpdUserID, @UpdDateTime)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@BOOKINGNO" Precision="10" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="BOOKINGNO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@PARTYDATE" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="PARTYDATE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@TARIFFCODE" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="TARIFFCODE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@MCODE" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="MCODE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@MEMBERTYPE" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="MEMBERTYPE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@ASSOCIATENAME" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="ASSOCIATENAME" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@BOOKINGDATE" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="BOOKINGDATE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@DESCRIPTION" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="DESCRIPTION" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@BOOKINGSTATUS" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="BOOKINGSTATUS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@BOOKINGFLAG" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="BOOKINGFLAG" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@BILLINGFLAG" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="BILLINGFLAG" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@CANCELFLAG" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="CANCELFLAG" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@FREEZE" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="FREEZE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@ADDDATETIME" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="ADDDATETIME" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@ADDUSERID" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="ADDUSERID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@MENUCODE" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="MENUCODE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@OCCUPANCY" Precision="10" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="OCCUPANCY" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@LOCCODE" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="LOCCODE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@VEG" Precision="10" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="VEG" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@NONVEG" Precision="10" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="NONVEG" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@BOOKINGTYPE" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="BOOKINGTYPE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@freereson" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="freereson" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@DISCOUNTAMT" Precision="18" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="DISCOUNTAMT" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@TOTALAMOUNT" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="TOTALAMOUNT" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@HALLNETAMOUNT" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="HALLNETAMOUNT" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@DISCOUNT" Precision="18" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="DISCOUNT" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@GUESTNAME" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="GUESTNAME" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@CELLNO" Precision="10" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="CELLNO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@EMAIL" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="EMAIL" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@HallTaxAmount" Precision="18" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="HallTaxAmount" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@UpdUserID" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="UpdUserID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@UpdDateTime" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="UpdDateTime" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ROWID, BOOKINGNO, PARTYDATE, TARIFFCODE, MCODE, MEMBERTYPE, ASSOCIATENAME, BOOKINGDATE, DESCRIPTION, BOOKINGSTATUS, BOOKINGFLAG, BILLINGFLAG, CANCELFLAG, FREEZE, ADDDATETIME, ADDUSERID, MENUCODE, OCCUPANCY, LOCCODE, VEG, NONVEG, BOOKINGTYPE, freereson, DISCOUNTAMT, TOTALAMOUNT, HALLNETAMOUNT, DISCOUNT, GUESTNAME, CELLNO, EMAIL, HallTaxAmount, UpdUserID, UpdDateTime FROM party_hallbooking_hdr</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ROWID" DataSetColumn="ROWID" />
+              <Mapping SourceColumn="BOOKINGNO" DataSetColumn="BOOKINGNO" />
+              <Mapping SourceColumn="PARTYDATE" DataSetColumn="PARTYDATE" />
+              <Mapping SourceColumn="TARIFFCODE" DataSetColumn="TARIFFCODE" />
+              <Mapping SourceColumn="MCODE" DataSetColumn="MCODE" />
+              <Mapping SourceColumn="MEMBERTYPE" DataSetColumn="MEMBERTYPE" />
+              <Mapping SourceColumn="ASSOCIATENAME" DataSetColumn="ASSOCIATENAME" />
+              <Mapping SourceColumn="BOOKINGDATE" DataSetColumn="BOOKINGDATE" />
+              <Mapping SourceColumn="DESCRIPTION" DataSetColumn="DESCRIPTION" />
+              <Mapping SourceColumn="BOOKINGSTATUS" DataSetColumn="BOOKINGSTATUS" />
+              <Mapping SourceColumn="BOOKINGFLAG" DataSetColumn="BOOKINGFLAG" />
+              <Mapping SourceColumn="BILLINGFLAG" DataSetColumn="BILLINGFLAG" />
+              <Mapping SourceColumn="CANCELFLAG" DataSetColumn="CANCELFLAG" />
+              <Mapping SourceColumn="FREEZE" DataSetColumn="FREEZE" />
+              <Mapping SourceColumn="ADDDATETIME" DataSetColumn="ADDDATETIME" />
+              <Mapping SourceColumn="ADDUSERID" DataSetColumn="ADDUSERID" />
+              <Mapping SourceColumn="MENUCODE" DataSetColumn="MENUCODE" />
+              <Mapping SourceColumn="OCCUPANCY" DataSetColumn="OCCUPANCY" />
+              <Mapping SourceColumn="LOCCODE" DataSetColumn="LOCCODE" />
+              <Mapping SourceColumn="VEG" DataSetColumn="VEG" />
+              <Mapping SourceColumn="NONVEG" DataSetColumn="NONVEG" />
+              <Mapping SourceColumn="BOOKINGTYPE" DataSetColumn="BOOKINGTYPE" />
+              <Mapping SourceColumn="freereson" DataSetColumn="freereson" />
+              <Mapping SourceColumn="DISCOUNTAMT" DataSetColumn="DISCOUNTAMT" />
+              <Mapping SourceColumn="TOTALAMOUNT" DataSetColumn="TOTALAMOUNT" />
+              <Mapping SourceColumn="HALLNETAMOUNT" DataSetColumn="HALLNETAMOUNT" />
+              <Mapping SourceColumn="DISCOUNT" DataSetColumn="DISCOUNT" />
+              <Mapping SourceColumn="GUESTNAME" DataSetColumn="GUESTNAME" />
+              <Mapping SourceColumn="CELLNO" DataSetColumn="CELLNO" />
+              <Mapping SourceColumn="EMAIL" DataSetColumn="EMAIL" />
+              <Mapping SourceColumn="HallTaxAmount" DataSetColumn="HallTaxAmount" />
+              <Mapping SourceColumn="UpdUserID" DataSetColumn="UpdUserID" />
+              <Mapping SourceColumn="UpdDateTime" DataSetColumn="UpdDateTime" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="party_reconcilliationTableAdapter" GeneratorDataComponentClassName="party_reconcilliationTableAdapter" Name="party_reconcilliation" UserDataComponentName="party_reconcilliationTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PARNEWConnectionString (MySettings)" DbObjectName="PARNEW.dbo.party_reconcilliation" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT bookingno, bookingdate, partydate, membername, reservationcharge, reservationservtax, extrahour, extrahourtax, othercharges, otherchargestax, cateringamount, cateringtax, baramount, bartax, spl_dinner_charge, spl_dinner_chargetax, total_bill_amount, advance, advancedate, settelement, settelementdate FROM dbo.party_reconcilliation</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="bookingno" DataSetColumn="bookingno" />
+              <Mapping SourceColumn="bookingdate" DataSetColumn="bookingdate" />
+              <Mapping SourceColumn="partydate" DataSetColumn="partydate" />
+              <Mapping SourceColumn="membername" DataSetColumn="membername" />
+              <Mapping SourceColumn="reservationcharge" DataSetColumn="reservationcharge" />
+              <Mapping SourceColumn="reservationservtax" DataSetColumn="reservationservtax" />
+              <Mapping SourceColumn="extrahour" DataSetColumn="extrahour" />
+              <Mapping SourceColumn="extrahourtax" DataSetColumn="extrahourtax" />
+              <Mapping SourceColumn="othercharges" DataSetColumn="othercharges" />
+              <Mapping SourceColumn="otherchargestax" DataSetColumn="otherchargestax" />
+              <Mapping SourceColumn="cateringamount" DataSetColumn="cateringamount" />
+              <Mapping SourceColumn="cateringtax" DataSetColumn="cateringtax" />
+              <Mapping SourceColumn="baramount" DataSetColumn="baramount" />
+              <Mapping SourceColumn="bartax" DataSetColumn="bartax" />
+              <Mapping SourceColumn="spl_dinner_charge" DataSetColumn="spl_dinner_charge" />
+              <Mapping SourceColumn="spl_dinner_chargetax" DataSetColumn="spl_dinner_chargetax" />
+              <Mapping SourceColumn="total_bill_amount" DataSetColumn="total_bill_amount" />
+              <Mapping SourceColumn="advance" DataSetColumn="advance" />
+              <Mapping SourceColumn="advancedate" DataSetColumn="advancedate" />
+              <Mapping SourceColumn="settelement" DataSetColumn="settelement" />
+              <Mapping SourceColumn="settelementdate" DataSetColumn="settelementdate" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Get_Together_RptTableAdapter" GeneratorDataComponentClassName="Get_Together_RptTableAdapter" Name="Get_Together_Rpt" UserDataComponentName="Get_Together_RptTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PARNEWConnectionString (MySettings)" DbObjectName="PARNEW.dbo.Get_Together_Rpt" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT BOOKINGNO, PARTYDATE, ASSOCIATENAME, MCODE, DESCRIPTION, VENUE, OCCUPANCY, FOODBILL, NONFOODBILL, TOTALTAX FROM Get_Together_Rpt</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="BOOKINGNO" DataSetColumn="BOOKINGNO" />
+              <Mapping SourceColumn="PARTYDATE" DataSetColumn="PARTYDATE" />
+              <Mapping SourceColumn="ASSOCIATENAME" DataSetColumn="ASSOCIATENAME" />
+              <Mapping SourceColumn="MCODE" DataSetColumn="MCODE" />
+              <Mapping SourceColumn="DESCRIPTION" DataSetColumn="DESCRIPTION" />
+              <Mapping SourceColumn="VENUE" DataSetColumn="VENUE" />
+              <Mapping SourceColumn="OCCUPANCY" DataSetColumn="OCCUPANCY" />
+              <Mapping SourceColumn="FOODBILL" DataSetColumn="FOODBILL" />
+              <Mapping SourceColumn="NONFOODBILL" DataSetColumn="NONFOODBILL" />
+              <Mapping SourceColumn="TOTALTAX" DataSetColumn="TOTALTAX" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Party_AbstractTableAdapter" GeneratorDataComponentClassName="Party_AbstractTableAdapter" Name="Party_Abstract" UserDataComponentName="Party_AbstractTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PARNEWConnectionString (MySettings)" DbObjectName="PARNEW.dbo.Party_Abstract" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT BOOKINGNO, PARTYDATE, MCODE, DEPAMT, HALLAMT, FOOD, BREV, ARR, OTH, SETT FROM dbo.Party_Abstract</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="BOOKINGNO" DataSetColumn="BOOKINGNO" />
+              <Mapping SourceColumn="PARTYDATE" DataSetColumn="PARTYDATE" />
+              <Mapping SourceColumn="MCODE" DataSetColumn="MCODE" />
+              <Mapping SourceColumn="DEPAMT" DataSetColumn="DEPAMT" />
+              <Mapping SourceColumn="HALLAMT" DataSetColumn="HALLAMT" />
+              <Mapping SourceColumn="FOOD" DataSetColumn="FOOD" />
+              <Mapping SourceColumn="BREV" DataSetColumn="BREV" />
+              <Mapping SourceColumn="ARR" DataSetColumn="ARR" />
+              <Mapping SourceColumn="OTH" DataSetColumn="OTH" />
+              <Mapping SourceColumn="SETT" DataSetColumn="SETT" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View_HallReservation" msprop:Generator_TableClassName="View_HallReservationDataTable" msprop:Generator_TableVarName="tableView_HallReservation" msprop:Generator_TablePropName="View_HallReservation" msprop:Generator_RowDeletingName="View_HallReservationRowDeleting" msprop:Generator_RowChangingName="View_HallReservationRowChanging" msprop:Generator_RowEvHandlerName="View_HallReservationRowChangeEventHandler" msprop:Generator_RowDeletedName="View_HallReservationRowDeleted" msprop:Generator_UserTableName="View_HallReservation" msprop:Generator_RowChangedName="View_HallReservationRowChanged" msprop:Generator_RowEvArgName="View_HallReservationRowChangeEvent" msprop:Generator_RowClassName="View_HallReservationRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BOOKINGNO" msprop:Generator_ColumnVarNameInTable="columnBOOKINGNO" msprop:Generator_ColumnPropNameInRow="BOOKINGNO" msprop:Generator_ColumnPropNameInTable="BOOKINGNOColumn" msprop:Generator_UserColumnName="BOOKINGNO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BOOKINGDATE" msprop:Generator_ColumnVarNameInTable="columnBOOKINGDATE" msprop:Generator_ColumnPropNameInRow="BOOKINGDATE" msprop:Generator_ColumnPropNameInTable="BOOKINGDATEColumn" msprop:Generator_UserColumnName="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PARTYDATE" msprop:Generator_ColumnVarNameInTable="columnPARTYDATE" msprop:Generator_ColumnPropNameInRow="PARTYDATE" msprop:Generator_ColumnPropNameInTable="PARTYDATEColumn" msprop:Generator_UserColumnName="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PartyToDate" msprop:Generator_ColumnVarNameInTable="columnPartyToDate" msprop:Generator_ColumnPropNameInRow="PartyToDate" msprop:Generator_ColumnPropNameInTable="PartyToDateColumn" msprop:Generator_UserColumnName="PartyToDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FROMTIME" msprop:Generator_ColumnVarNameInTable="columnFROMTIME" msprop:Generator_ColumnPropNameInRow="FROMTIME" msprop:Generator_ColumnPropNameInTable="FROMTIMEColumn" msprop:Generator_UserColumnName="FROMTIME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TOTIME" msprop:Generator_ColumnVarNameInTable="columnTOTIME" msprop:Generator_ColumnPropNameInRow="TOTIME" msprop:Generator_ColumnPropNameInTable="TOTIMEColumn" msprop:Generator_UserColumnName="TOTIME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MCODE" msprop:Generator_ColumnVarNameInTable="columnMCODE" msprop:Generator_ColumnPropNameInRow="MCODE" msprop:Generator_ColumnPropNameInTable="MCODEColumn" msprop:Generator_UserColumnName="MCODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ASSOCIATENAME" msprop:Generator_ColumnVarNameInTable="columnASSOCIATENAME" msprop:Generator_ColumnPropNameInRow="ASSOCIATENAME" msprop:Generator_ColumnPropNameInTable="ASSOCIATENAMEColumn" msprop:Generator_UserColumnName="ASSOCIATENAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GUESTNAME" msprop:Generator_ColumnVarNameInTable="columnGUESTNAME" msprop:Generator_ColumnPropNameInRow="GUESTNAME" msprop:Generator_ColumnPropNameInTable="GUESTNAMEColumn" msprop:Generator_UserColumnName="GUESTNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" msprop:Generator_UserColumnName="DESCRIPTION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OCCUPANCY" msprop:Generator_ColumnVarNameInTable="columnOCCUPANCY" msprop:Generator_ColumnPropNameInRow="OCCUPANCY" msprop:Generator_ColumnPropNameInTable="OCCUPANCYColumn" msprop:Generator_UserColumnName="OCCUPANCY" type="xs:decimal" minOccurs="0" />
+              <xs:element name="HALLCODE" msprop:Generator_ColumnVarNameInTable="columnHALLCODE" msprop:Generator_ColumnPropNameInRow="HALLCODE" msprop:Generator_ColumnPropNameInTable="HALLCODEColumn" msprop:Generator_UserColumnName="HALLCODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HallDesc" msprop:Generator_ColumnVarNameInTable="columnHallDesc" msprop:Generator_ColumnPropNameInRow="HallDesc" msprop:Generator_ColumnPropNameInTable="HallDescColumn" msprop:Generator_UserColumnName="HallDesc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HALLTYPE" msprop:Generator_ColumnVarNameInTable="columnHALLTYPE" msprop:Generator_ColumnPropNameInRow="HALLTYPE" msprop:Generator_ColumnPropNameInTable="HALLTYPEColumn" msprop:Generator_UserColumnName="HALLTYPE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PDesc" msprop:Generator_ColumnVarNameInTable="columnPDesc" msprop:Generator_ColumnPropNameInRow="PDesc" msprop:Generator_ColumnPropNameInTable="PDescColumn" msprop:Generator_UserColumnName="PDesc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HALLAMOUNT" msprop:Generator_ColumnVarNameInTable="columnHALLAMOUNT" msprop:Generator_ColumnPropNameInRow="HALLAMOUNT" msprop:Generator_ColumnPropNameInTable="HALLAMOUNTColumn" msprop:Generator_UserColumnName="HALLAMOUNT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="HALLTAXAMOUNT" msprop:Generator_ColumnVarNameInTable="columnHALLTAXAMOUNT" msprop:Generator_ColumnPropNameInRow="HALLTAXAMOUNT" msprop:Generator_ColumnPropNameInTable="HALLTAXAMOUNTColumn" msprop:Generator_UserColumnName="HALLTAXAMOUNT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="HALLNETAMOUNT" msprop:Generator_ColumnVarNameInTable="columnHALLNETAMOUNT" msprop:Generator_ColumnPropNameInRow="HALLNETAMOUNT" msprop:Generator_ColumnPropNameInTable="HALLNETAMOUNTColumn" msprop:Generator_UserColumnName="HALLNETAMOUNT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="M_Keeper" msprop:Generator_ColumnVarNameInTable="columnM_Keeper" msprop:Generator_ColumnPropNameInRow="M_Keeper" msprop:Generator_ColumnPropNameInTable="M_KeeperColumn" msprop:Generator_UserColumnName="M_Keeper" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SessionType" msprop:Generator_ColumnVarNameInTable="columnSessionType" msprop:Generator_ColumnPropNameInRow="SessionType" msprop:Generator_ColumnPropNameInTable="SessionTypeColumn" msprop:Generator_UserColumnName="SessionType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CELLNO" msprop:Generator_ColumnVarNameInTable="columnCELLNO" msprop:Generator_ColumnPropNameInRow="CELLNO" msprop:Generator_ColumnPropNameInTable="CELLNOColumn" msprop:Generator_UserColumnName="CELLNO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EMAIL" msprop:Generator_ColumnVarNameInTable="columnEMAIL" msprop:Generator_ColumnPropNameInRow="EMAIL" msprop:Generator_ColumnPropNameInTable="EMAILColumn" msprop:Generator_UserColumnName="EMAIL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FREEZE" msprop:Generator_ColumnVarNameInTable="columnFREEZE" msprop:Generator_ColumnPropNameInRow="FREEZE" msprop:Generator_ColumnPropNameInTable="FREEZEColumn" msprop:Generator_UserColumnName="FREEZE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CANCELFLAG" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCANCELFLAG" msprop:Generator_ColumnPropNameInRow="CANCELFLAG" msprop:Generator_ColumnPropNameInTable="CANCELFLAGColumn" msprop:Generator_UserColumnName="CANCELFLAG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="A" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnA" msprop:Generator_ColumnPropNameInRow="A" msprop:Generator_ColumnPropNameInTable="AColumn" msprop:Generator_UserColumnName="A" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="B" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnB" msprop:Generator_ColumnPropNameInRow="B" msprop:Generator_ColumnPropNameInTable="BColumn" msprop:Generator_UserColumnName="B" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="C" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnC" msprop:Generator_ColumnPropNameInRow="C" msprop:Generator_ColumnPropNameInTable="CColumn" msprop:Generator_UserColumnName="C" type="xs:int" minOccurs="0" />
+              <xs:element name="D" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnD" msprop:Generator_ColumnPropNameInRow="D" msprop:Generator_ColumnPropNameInTable="DColumn" msprop:Generator_UserColumnName="D" type="xs:int" minOccurs="0" />
+              <xs:element name="E" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnE" msprop:Generator_ColumnPropNameInRow="E" msprop:Generator_ColumnPropNameInTable="EColumn" msprop:Generator_UserColumnName="E" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="F" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnF" msprop:Generator_ColumnPropNameInRow="F" msprop:Generator_ColumnPropNameInTable="FColumn" msprop:Generator_UserColumnName="F" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="party_hallbooking_hdr" msprop:Generator_TableClassName="party_hallbooking_hdrDataTable" msprop:Generator_TableVarName="tableparty_hallbooking_hdr" msprop:Generator_RowChangedName="party_hallbooking_hdrRowChanged" msprop:Generator_TablePropName="party_hallbooking_hdr" msprop:Generator_RowDeletingName="party_hallbooking_hdrRowDeleting" msprop:Generator_RowChangingName="party_hallbooking_hdrRowChanging" msprop:Generator_RowEvHandlerName="party_hallbooking_hdrRowChangeEventHandler" msprop:Generator_RowDeletedName="party_hallbooking_hdrRowDeleted" msprop:Generator_RowClassName="party_hallbooking_hdrRow" msprop:Generator_UserTableName="party_hallbooking_hdr" msprop:Generator_RowEvArgName="party_hallbooking_hdrRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ROWID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnROWID" msprop:Generator_ColumnPropNameInRow="ROWID" msprop:Generator_ColumnPropNameInTable="ROWIDColumn" msprop:Generator_UserColumnName="ROWID" type="xs:decimal" />
+              <xs:element name="BOOKINGNO" msprop:Generator_ColumnVarNameInTable="columnBOOKINGNO" msprop:Generator_ColumnPropNameInRow="BOOKINGNO" msprop:Generator_ColumnPropNameInTable="BOOKINGNOColumn" msprop:Generator_UserColumnName="BOOKINGNO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PARTYDATE" msprop:Generator_ColumnVarNameInTable="columnPARTYDATE" msprop:Generator_ColumnPropNameInRow="PARTYDATE" msprop:Generator_ColumnPropNameInTable="PARTYDATEColumn" msprop:Generator_UserColumnName="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TARIFFCODE" msprop:Generator_ColumnVarNameInTable="columnTARIFFCODE" msprop:Generator_ColumnPropNameInRow="TARIFFCODE" msprop:Generator_ColumnPropNameInTable="TARIFFCODEColumn" msprop:Generator_UserColumnName="TARIFFCODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MCODE" msprop:Generator_ColumnVarNameInTable="columnMCODE" msprop:Generator_ColumnPropNameInRow="MCODE" msprop:Generator_ColumnPropNameInTable="MCODEColumn" msprop:Generator_UserColumnName="MCODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MEMBERTYPE" msprop:Generator_ColumnVarNameInTable="columnMEMBERTYPE" msprop:Generator_ColumnPropNameInRow="MEMBERTYPE" msprop:Generator_ColumnPropNameInTable="MEMBERTYPEColumn" msprop:Generator_UserColumnName="MEMBERTYPE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ASSOCIATENAME" msprop:Generator_ColumnVarNameInTable="columnASSOCIATENAME" msprop:Generator_ColumnPropNameInRow="ASSOCIATENAME" msprop:Generator_ColumnPropNameInTable="ASSOCIATENAMEColumn" msprop:Generator_UserColumnName="ASSOCIATENAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BOOKINGDATE" msprop:Generator_ColumnVarNameInTable="columnBOOKINGDATE" msprop:Generator_ColumnPropNameInRow="BOOKINGDATE" msprop:Generator_ColumnPropNameInTable="BOOKINGDATEColumn" msprop:Generator_UserColumnName="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" msprop:Generator_UserColumnName="DESCRIPTION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BOOKINGSTATUS" msprop:Generator_ColumnVarNameInTable="columnBOOKINGSTATUS" msprop:Generator_ColumnPropNameInRow="BOOKINGSTATUS" msprop:Generator_ColumnPropNameInTable="BOOKINGSTATUSColumn" msprop:Generator_UserColumnName="BOOKINGSTATUS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BOOKINGFLAG" msprop:Generator_ColumnVarNameInTable="columnBOOKINGFLAG" msprop:Generator_ColumnPropNameInRow="BOOKINGFLAG" msprop:Generator_ColumnPropNameInTable="BOOKINGFLAGColumn" msprop:Generator_UserColumnName="BOOKINGFLAG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BILLINGFLAG" msprop:Generator_ColumnVarNameInTable="columnBILLINGFLAG" msprop:Generator_ColumnPropNameInRow="BILLINGFLAG" msprop:Generator_ColumnPropNameInTable="BILLINGFLAGColumn" msprop:Generator_UserColumnName="BILLINGFLAG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CANCELFLAG" msprop:Generator_ColumnVarNameInTable="columnCANCELFLAG" msprop:Generator_ColumnPropNameInRow="CANCELFLAG" msprop:Generator_ColumnPropNameInTable="CANCELFLAGColumn" msprop:Generator_UserColumnName="CANCELFLAG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FREEZE" msprop:Generator_ColumnVarNameInTable="columnFREEZE" msprop:Generator_ColumnPropNameInRow="FREEZE" msprop:Generator_ColumnPropNameInTable="FREEZEColumn" msprop:Generator_UserColumnName="FREEZE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ADDDATETIME" msprop:Generator_ColumnVarNameInTable="columnADDDATETIME" msprop:Generator_ColumnPropNameInRow="ADDDATETIME" msprop:Generator_ColumnPropNameInTable="ADDDATETIMEColumn" msprop:Generator_UserColumnName="ADDDATETIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ADDUSERID" msprop:Generator_ColumnVarNameInTable="columnADDUSERID" msprop:Generator_ColumnPropNameInRow="ADDUSERID" msprop:Generator_ColumnPropNameInTable="ADDUSERIDColumn" msprop:Generator_UserColumnName="ADDUSERID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MENUCODE" msprop:Generator_ColumnVarNameInTable="columnMENUCODE" msprop:Generator_ColumnPropNameInRow="MENUCODE" msprop:Generator_ColumnPropNameInTable="MENUCODEColumn" msprop:Generator_UserColumnName="MENUCODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OCCUPANCY" msprop:Generator_ColumnVarNameInTable="columnOCCUPANCY" msprop:Generator_ColumnPropNameInRow="OCCUPANCY" msprop:Generator_ColumnPropNameInTable="OCCUPANCYColumn" msprop:Generator_UserColumnName="OCCUPANCY" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LOCCODE" msprop:Generator_ColumnVarNameInTable="columnLOCCODE" msprop:Generator_ColumnPropNameInRow="LOCCODE" msprop:Generator_ColumnPropNameInTable="LOCCODEColumn" msprop:Generator_UserColumnName="LOCCODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VEG" msprop:Generator_ColumnVarNameInTable="columnVEG" msprop:Generator_ColumnPropNameInRow="VEG" msprop:Generator_ColumnPropNameInTable="VEGColumn" msprop:Generator_UserColumnName="VEG" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NONVEG" msprop:Generator_ColumnVarNameInTable="columnNONVEG" msprop:Generator_ColumnPropNameInRow="NONVEG" msprop:Generator_ColumnPropNameInTable="NONVEGColumn" msprop:Generator_UserColumnName="NONVEG" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BOOKINGTYPE" msprop:Generator_ColumnVarNameInTable="columnBOOKINGTYPE" msprop:Generator_ColumnPropNameInRow="BOOKINGTYPE" msprop:Generator_ColumnPropNameInTable="BOOKINGTYPEColumn" msprop:Generator_UserColumnName="BOOKINGTYPE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="freereson" msprop:Generator_ColumnVarNameInTable="columnfreereson" msprop:Generator_ColumnPropNameInRow="freereson" msprop:Generator_ColumnPropNameInTable="freeresonColumn" msprop:Generator_UserColumnName="freereson" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DISCOUNTAMT" msprop:Generator_ColumnVarNameInTable="columnDISCOUNTAMT" msprop:Generator_ColumnPropNameInRow="DISCOUNTAMT" msprop:Generator_ColumnPropNameInTable="DISCOUNTAMTColumn" msprop:Generator_UserColumnName="DISCOUNTAMT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTALAMOUNT" msprop:Generator_ColumnVarNameInTable="columnTOTALAMOUNT" msprop:Generator_ColumnPropNameInRow="TOTALAMOUNT" msprop:Generator_ColumnPropNameInTable="TOTALAMOUNTColumn" msprop:Generator_UserColumnName="TOTALAMOUNT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="HALLNETAMOUNT" msprop:Generator_ColumnVarNameInTable="columnHALLNETAMOUNT" msprop:Generator_ColumnPropNameInRow="HALLNETAMOUNT" msprop:Generator_ColumnPropNameInTable="HALLNETAMOUNTColumn" msprop:Generator_UserColumnName="HALLNETAMOUNT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DISCOUNT" msprop:Generator_ColumnVarNameInTable="columnDISCOUNT" msprop:Generator_ColumnPropNameInRow="DISCOUNT" msprop:Generator_ColumnPropNameInTable="DISCOUNTColumn" msprop:Generator_UserColumnName="DISCOUNT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GUESTNAME" msprop:Generator_ColumnVarNameInTable="columnGUESTNAME" msprop:Generator_ColumnPropNameInRow="GUESTNAME" msprop:Generator_ColumnPropNameInTable="GUESTNAMEColumn" msprop:Generator_UserColumnName="GUESTNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CELLNO" msprop:Generator_ColumnVarNameInTable="columnCELLNO" msprop:Generator_ColumnPropNameInRow="CELLNO" msprop:Generator_ColumnPropNameInTable="CELLNOColumn" msprop:Generator_UserColumnName="CELLNO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EMAIL" msprop:Generator_ColumnVarNameInTable="columnEMAIL" msprop:Generator_ColumnPropNameInRow="EMAIL" msprop:Generator_ColumnPropNameInTable="EMAILColumn" msprop:Generator_UserColumnName="EMAIL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HallTaxAmount" msprop:Generator_ColumnVarNameInTable="columnHallTaxAmount" msprop:Generator_ColumnPropNameInRow="HallTaxAmount" msprop:Generator_ColumnPropNameInTable="HallTaxAmountColumn" msprop:Generator_UserColumnName="HallTaxAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="UpdUserID" msprop:Generator_ColumnVarNameInTable="columnUpdUserID" msprop:Generator_ColumnPropNameInRow="UpdUserID" msprop:Generator_ColumnPropNameInTable="UpdUserIDColumn" msprop:Generator_UserColumnName="UpdUserID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UpdDateTime" msprop:Generator_ColumnVarNameInTable="columnUpdDateTime" msprop:Generator_ColumnPropNameInRow="UpdDateTime" msprop:Generator_ColumnPropNameInTable="UpdDateTimeColumn" msprop:Generator_UserColumnName="UpdDateTime" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="party_reconcilliation" msprop:Generator_TableClassName="party_reconcilliationDataTable" msprop:Generator_TableVarName="tableparty_reconcilliation" msprop:Generator_RowChangedName="party_reconcilliationRowChanged" msprop:Generator_TablePropName="party_reconcilliation" msprop:Generator_RowDeletingName="party_reconcilliationRowDeleting" msprop:Generator_RowChangingName="party_reconcilliationRowChanging" msprop:Generator_RowEvHandlerName="party_reconcilliationRowChangeEventHandler" msprop:Generator_RowDeletedName="party_reconcilliationRowDeleted" msprop:Generator_RowClassName="party_reconcilliationRow" msprop:Generator_UserTableName="party_reconcilliation" msprop:Generator_RowEvArgName="party_reconcilliationRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="bookingno" msprop:Generator_ColumnVarNameInTable="columnbookingno" msprop:Generator_ColumnPropNameInRow="bookingno" msprop:Generator_ColumnPropNameInTable="bookingnoColumn" msprop:Generator_UserColumnName="bookingno" type="xs:decimal" />
+              <xs:element name="bookingdate" msprop:Generator_ColumnVarNameInTable="columnbookingdate" msprop:Generator_ColumnPropNameInRow="bookingdate" msprop:Generator_ColumnPropNameInTable="bookingdateColumn" msprop:Generator_UserColumnName="bookingdate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="partydate" msprop:Generator_ColumnVarNameInTable="columnpartydate" msprop:Generator_ColumnPropNameInRow="partydate" msprop:Generator_ColumnPropNameInTable="partydateColumn" msprop:Generator_UserColumnName="partydate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="membername" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnmembername" msprop:Generator_ColumnPropNameInRow="membername" msprop:Generator_ColumnPropNameInTable="membernameColumn" msprop:Generator_UserColumnName="membername" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="52" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="reservationcharge" msprop:Generator_ColumnVarNameInTable="columnreservationcharge" msprop:Generator_ColumnPropNameInRow="reservationcharge" msprop:Generator_ColumnPropNameInTable="reservationchargeColumn" msprop:Generator_UserColumnName="reservationcharge" type="xs:decimal" minOccurs="0" />
+              <xs:element name="reservationservtax" msprop:Generator_ColumnVarNameInTable="columnreservationservtax" msprop:Generator_ColumnPropNameInRow="reservationservtax" msprop:Generator_ColumnPropNameInTable="reservationservtaxColumn" msprop:Generator_UserColumnName="reservationservtax" type="xs:decimal" minOccurs="0" />
+              <xs:element name="extrahour" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnextrahour" msprop:Generator_ColumnPropNameInRow="extrahour" msprop:Generator_ColumnPropNameInTable="extrahourColumn" msprop:Generator_UserColumnName="extrahour" type="xs:decimal" minOccurs="0" />
+              <xs:element name="extrahourtax" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnextrahourtax" msprop:Generator_ColumnPropNameInRow="extrahourtax" msprop:Generator_ColumnPropNameInTable="extrahourtaxColumn" msprop:Generator_UserColumnName="extrahourtax" type="xs:decimal" minOccurs="0" />
+              <xs:element name="othercharges" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnothercharges" msprop:Generator_ColumnPropNameInRow="othercharges" msprop:Generator_ColumnPropNameInTable="otherchargesColumn" msprop:Generator_UserColumnName="othercharges" type="xs:decimal" minOccurs="0" />
+              <xs:element name="otherchargestax" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnotherchargestax" msprop:Generator_ColumnPropNameInRow="otherchargestax" msprop:Generator_ColumnPropNameInTable="otherchargestaxColumn" msprop:Generator_UserColumnName="otherchargestax" type="xs:decimal" minOccurs="0" />
+              <xs:element name="cateringamount" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columncateringamount" msprop:Generator_ColumnPropNameInRow="cateringamount" msprop:Generator_ColumnPropNameInTable="cateringamountColumn" msprop:Generator_UserColumnName="cateringamount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="cateringtax" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columncateringtax" msprop:Generator_ColumnPropNameInRow="cateringtax" msprop:Generator_ColumnPropNameInTable="cateringtaxColumn" msprop:Generator_UserColumnName="cateringtax" type="xs:decimal" minOccurs="0" />
+              <xs:element name="baramount" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnbaramount" msprop:Generator_ColumnPropNameInRow="baramount" msprop:Generator_ColumnPropNameInTable="baramountColumn" msprop:Generator_UserColumnName="baramount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="bartax" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnbartax" msprop:Generator_ColumnPropNameInRow="bartax" msprop:Generator_ColumnPropNameInTable="bartaxColumn" msprop:Generator_UserColumnName="bartax" type="xs:decimal" minOccurs="0" />
+              <xs:element name="spl_dinner_charge" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnspl_dinner_charge" msprop:Generator_ColumnPropNameInRow="spl_dinner_charge" msprop:Generator_ColumnPropNameInTable="spl_dinner_chargeColumn" msprop:Generator_UserColumnName="spl_dinner_charge" type="xs:decimal" minOccurs="0" />
+              <xs:element name="spl_dinner_chargetax" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnspl_dinner_chargetax" msprop:Generator_ColumnPropNameInRow="spl_dinner_chargetax" msprop:Generator_ColumnPropNameInTable="spl_dinner_chargetaxColumn" msprop:Generator_UserColumnName="spl_dinner_chargetax" type="xs:decimal" minOccurs="0" />
+              <xs:element name="total_bill_amount" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntotal_bill_amount" msprop:Generator_ColumnPropNameInRow="total_bill_amount" msprop:Generator_ColumnPropNameInTable="total_bill_amountColumn" msprop:Generator_UserColumnName="total_bill_amount" type="xs:int" minOccurs="0" />
+              <xs:element name="advance" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnadvance" msprop:Generator_ColumnPropNameInRow="advance" msprop:Generator_ColumnPropNameInTable="advanceColumn" msprop:Generator_UserColumnName="advance" type="xs:decimal" minOccurs="0" />
+              <xs:element name="advancedate" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnadvancedate" msprop:Generator_ColumnPropNameInRow="advancedate" msprop:Generator_ColumnPropNameInTable="advancedateColumn" msprop:Generator_UserColumnName="advancedate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="settelement" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnsettelement" msprop:Generator_ColumnPropNameInRow="settelement" msprop:Generator_ColumnPropNameInTable="settelementColumn" msprop:Generator_UserColumnName="settelement" type="xs:decimal" minOccurs="0" />
+              <xs:element name="settelementdate" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnsettelementdate" msprop:Generator_ColumnPropNameInRow="settelementdate" msprop:Generator_ColumnPropNameInTable="settelementdateColumn" msprop:Generator_UserColumnName="settelementdate" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Get_Together_Rpt" msprop:Generator_TableClassName="Get_Together_RptDataTable" msprop:Generator_TableVarName="tableGet_Together_Rpt" msprop:Generator_TablePropName="Get_Together_Rpt" msprop:Generator_RowDeletingName="Get_Together_RptRowDeleting" msprop:Generator_RowChangingName="Get_Together_RptRowChanging" msprop:Generator_RowEvHandlerName="Get_Together_RptRowChangeEventHandler" msprop:Generator_RowDeletedName="Get_Together_RptRowDeleted" msprop:Generator_UserTableName="Get_Together_Rpt" msprop:Generator_RowChangedName="Get_Together_RptRowChanged" msprop:Generator_RowEvArgName="Get_Together_RptRowChangeEvent" msprop:Generator_RowClassName="Get_Together_RptRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BOOKINGNO" msprop:Generator_ColumnVarNameInTable="columnBOOKINGNO" msprop:Generator_ColumnPropNameInRow="BOOKINGNO" msprop:Generator_ColumnPropNameInTable="BOOKINGNOColumn" msprop:Generator_UserColumnName="BOOKINGNO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PARTYDATE" msprop:Generator_ColumnVarNameInTable="columnPARTYDATE" msprop:Generator_ColumnPropNameInRow="PARTYDATE" msprop:Generator_ColumnPropNameInTable="PARTYDATEColumn" msprop:Generator_UserColumnName="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ASSOCIATENAME" msprop:Generator_ColumnVarNameInTable="columnASSOCIATENAME" msprop:Generator_ColumnPropNameInRow="ASSOCIATENAME" msprop:Generator_ColumnPropNameInTable="ASSOCIATENAMEColumn" msprop:Generator_UserColumnName="ASSOCIATENAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MCODE" msprop:Generator_ColumnVarNameInTable="columnMCODE" msprop:Generator_ColumnPropNameInRow="MCODE" msprop:Generator_ColumnPropNameInTable="MCODEColumn" msprop:Generator_UserColumnName="MCODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" msprop:Generator_UserColumnName="DESCRIPTION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VENUE" msprop:Generator_ColumnVarNameInTable="columnVENUE" msprop:Generator_ColumnPropNameInRow="VENUE" msprop:Generator_ColumnPropNameInTable="VENUEColumn" msprop:Generator_UserColumnName="VENUE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="51" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OCCUPANCY" msprop:Generator_ColumnVarNameInTable="columnOCCUPANCY" msprop:Generator_ColumnPropNameInRow="OCCUPANCY" msprop:Generator_ColumnPropNameInTable="OCCUPANCYColumn" msprop:Generator_UserColumnName="OCCUPANCY" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FOODBILL" msprop:Generator_ColumnVarNameInTable="columnFOODBILL" msprop:Generator_ColumnPropNameInRow="FOODBILL" msprop:Generator_ColumnPropNameInTable="FOODBILLColumn" msprop:Generator_UserColumnName="FOODBILL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NONFOODBILL" msprop:Generator_ColumnVarNameInTable="columnNONFOODBILL" msprop:Generator_ColumnPropNameInRow="NONFOODBILL" msprop:Generator_ColumnPropNameInTable="NONFOODBILLColumn" msprop:Generator_UserColumnName="NONFOODBILL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTALTAX" msprop:Generator_ColumnVarNameInTable="columnTOTALTAX" msprop:Generator_ColumnPropNameInRow="TOTALTAX" msprop:Generator_ColumnPropNameInTable="TOTALTAXColumn" msprop:Generator_UserColumnName="TOTALTAX" type="xs:decimal" minOccurs="0" />
+              <xs:element name="StoreConsum" msprop:Generator_ColumnVarNameInTable="columnStoreConsum" msprop:Generator_ColumnPropNameInRow="StoreConsum" msprop:Generator_ColumnPropNameInTable="StoreConsumColumn" msprop:Generator_UserColumnName="StoreConsum" type="xs:decimal" minOccurs="0" />
+              <xs:element name="OT_Kit" msprop:Generator_ColumnVarNameInTable="columnOT_Kit" msprop:Generator_ColumnPropNameInRow="OT_Kit" msprop:Generator_ColumnPropNameInTable="OT_KitColumn" msprop:Generator_UserColumnName="OT_Kit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="OT_Service" msprop:Generator_ColumnVarNameInTable="columnOT_Service" msprop:Generator_ColumnPropNameInRow="OT_Service" msprop:Generator_ColumnPropNameInTable="OT_ServiceColumn" msprop:Generator_UserColumnName="OT_Service" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Cont_ItemCost" msprop:Generator_ColumnVarNameInTable="columnCont_ItemCost" msprop:Generator_ColumnPropNameInRow="Cont_ItemCost" msprop:Generator_ColumnPropNameInTable="Cont_ItemCostColumn" msprop:Generator_UserColumnName="Cont_ItemCost" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Party_Abstract" msprop:Generator_TableClassName="Party_AbstractDataTable" msprop:Generator_TableVarName="tableParty_Abstract" msprop:Generator_RowChangedName="Party_AbstractRowChanged" msprop:Generator_TablePropName="Party_Abstract" msprop:Generator_RowDeletingName="Party_AbstractRowDeleting" msprop:Generator_RowChangingName="Party_AbstractRowChanging" msprop:Generator_RowEvHandlerName="Party_AbstractRowChangeEventHandler" msprop:Generator_RowDeletedName="Party_AbstractRowDeleted" msprop:Generator_RowClassName="Party_AbstractRow" msprop:Generator_UserTableName="Party_Abstract" msprop:Generator_RowEvArgName="Party_AbstractRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BOOKINGNO" msprop:Generator_ColumnVarNameInTable="columnBOOKINGNO" msprop:Generator_ColumnPropNameInRow="BOOKINGNO" msprop:Generator_ColumnPropNameInTable="BOOKINGNOColumn" msprop:Generator_UserColumnName="BOOKINGNO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PARTYDATE" msprop:Generator_ColumnVarNameInTable="columnPARTYDATE" msprop:Generator_ColumnPropNameInRow="PARTYDATE" msprop:Generator_ColumnPropNameInTable="PARTYDATEColumn" msprop:Generator_UserColumnName="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MCODE" msprop:Generator_ColumnVarNameInTable="columnMCODE" msprop:Generator_ColumnPropNameInRow="MCODE" msprop:Generator_ColumnPropNameInTable="MCODEColumn" msprop:Generator_UserColumnName="MCODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MNAME" msprop:Generator_ColumnVarNameInTable="columnMNAME" msprop:Generator_ColumnPropNameInRow="MNAME" msprop:Generator_ColumnPropNameInTable="MNAMEColumn" msprop:Generator_UserColumnName="MNAME" type="xs:string" minOccurs="0" />
+              <xs:element name="DEPAMT" msprop:Generator_ColumnVarNameInTable="columnDEPAMT" msprop:Generator_ColumnPropNameInRow="DEPAMT" msprop:Generator_ColumnPropNameInTable="DEPAMTColumn" msprop:Generator_UserColumnName="DEPAMT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="HALLAMT" msprop:Generator_ColumnVarNameInTable="columnHALLAMT" msprop:Generator_ColumnPropNameInRow="HALLAMT" msprop:Generator_ColumnPropNameInTable="HALLAMTColumn" msprop:Generator_UserColumnName="HALLAMT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FOOD" msprop:Generator_ColumnVarNameInTable="columnFOOD" msprop:Generator_ColumnPropNameInRow="FOOD" msprop:Generator_ColumnPropNameInTable="FOODColumn" msprop:Generator_UserColumnName="FOOD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BREV" msprop:Generator_ColumnVarNameInTable="columnBREV" msprop:Generator_ColumnPropNameInRow="BREV" msprop:Generator_ColumnPropNameInTable="BREVColumn" msprop:Generator_UserColumnName="BREV" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ARR" msprop:Generator_ColumnVarNameInTable="columnARR" msprop:Generator_ColumnPropNameInRow="ARR" msprop:Generator_ColumnPropNameInTable="ARRColumn" msprop:Generator_UserColumnName="ARR" type="xs:decimal" minOccurs="0" />
+              <xs:element name="OTH" msprop:Generator_ColumnVarNameInTable="columnOTH" msprop:Generator_ColumnPropNameInRow="OTH" msprop:Generator_ColumnPropNameInTable="OTHColumn" msprop:Generator_UserColumnName="OTH" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SETT" msprop:Generator_ColumnVarNameInTable="columnSETT" msprop:Generator_ColumnPropNameInRow="SETT" msprop:Generator_ColumnPropNameInTable="SETTColumn" msprop:Generator_UserColumnName="SETT" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
